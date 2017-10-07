@@ -5,4 +5,4 @@ install_github('slidify', 'ramnathv')
 install_github("slidifyLibraries", "ramnathv")
 
 library(slidify)
-author("presentacion2",use_git = F)
+author("presentacion",use_git = F) ##Para que no haya problema subiendo carpeta en mac
