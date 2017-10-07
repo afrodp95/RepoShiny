@@ -1,6 +1,6 @@
 ---
 title       : "Presentación Con Slidify" 
-subtitle    : 
+subtitle    : "Ejemplo Clase"
 author      : Andres Rodriguez
 job         : 
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
