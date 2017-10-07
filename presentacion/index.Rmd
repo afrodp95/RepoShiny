@@ -1,0 +1,40 @@
+---
+title       : "Presentación Con Slidify" 
+subtitle    : 
+author      : Andres Rodriguez
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## Tabla con Lenguaje de Marcadores
+
+```{r, echo=F,include=T}
+library(ggplot2)
+data("cars")
+kable(head(cars,5))
+```
+
+
+--- .class #id 
+
+## Gráfica Gplot2
+
+```{r, echo=F,include=T,fig.align='center'}
+data("mtcars")
+ggplot(mtcars,aes(x=mpg,y=hp,col=cyl))+geom_point()
+```
+
+---
+
+## Imagen Estática
+
+![Boom](groot.jpg)
+
+
+
+
